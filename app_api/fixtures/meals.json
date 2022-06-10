@@ -1,0 +1,99 @@
+[
+    {
+        "model": "app_api.meal",
+        "pk": 1,
+        "fields": {
+            "name": "Fruit Medley",
+            "price": 7.00,
+            "nutrition": "",
+            "quantity": 2,
+            "category": 1,
+            "imageURL": ""
+        }
+    },
+    {
+        "model": "app_api.meal",
+        "pk": 2,
+        "fields": {
+            "name": "Veggie Omelet ",
+            "price": 9.00,
+            "nutrition": "",
+            "quantity": 0,
+            "category": 4,
+            "imageURL": ""
+        }
+    },
+    {
+        "model": "app_api.meal",
+        "pk": 3,
+        "fields": {
+            "name": "Shrimp Garden Salad",
+            "price": 8.00,
+            "nutrition": "",
+            "quantity": 2,
+            "category": 5,
+            "imageURL": ""
+        }
+    },
+    {
+        "model": "app_api.meal",
+        "pk": 4,
+        "fields": {
+            "name": "Taco Bowl",
+            "price": 11.00,
+            "nutrition": "",
+            "quantity": 1,
+            "category": 5,
+            "imageURL": ""
+        }
+    },
+    {
+        "model": "app_api.meal",
+        "pk": 5,
+        "fields": {
+            "name": "Overnight oats",
+            "price": 7.00,
+            "nutrition": "",
+            "quantity": 1,
+            "category": 1,
+            "imageURL": ""
+        }
+    },
+    {
+        "model": "app_api.meal",
+        "pk": 6,
+        "fields": {
+            "name": "Steak Stir Fry ",
+            "price": 13.00,
+            "nutrition": "",
+            "quantity": 1,
+            "category": 6,
+            "imageURL": ""
+        }
+    },
+    {
+        "model": "app_api.meal",
+        "pk": 7,
+        "fields": {
+            "name": "Meat and Cheese tray",
+            "price": 7.00,
+            "nutrition": "",
+            "quantity": 1,
+            "category": 3,
+            "imageURL": ""
+        }
+    },
+    {
+        "model": "app_api.meal",
+        "pk": 8,
+        "fields": {
+            "name": "Stuffed Chicken Galore",
+            "price": 14.50,
+            "nutrition": "",
+            "quantity": 1,
+            "category": 6,
+            "imageURL": ""
+        }
+    }
+   
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "model": "app_api.category",
+        "pk": 1,
+        "fields": {
+            "label": "Something Light"
+        }
+    },
+    {
+        "model": "app_api.category",
+        "pk": 2,
+        "fields": {
+            "label": "High Protein"
+        }
+    },
+    {
+        "model": "app_api.category",
+        "pk": 3,
+        "fields": {
+            "label": "Snack"
+        }
+    
+    },
+    {
+        "model": "app_api.category",
+        "pk": 4,
+        "fields": {
+            "label": "Breakfast"
+        }
+    
+    },
+    {
+        "model": "app_api.category",
+        "pk": 5,
+        "fields": {
+            "label": "Lunch"
+        }
+    
+    },
+    {
+        "model": "app_api.category",
+        "pk": 6,
+        "fields": {
+            "label": "Dinner"
+        }
+    
+    },
+    {
+        "model": "app_api.category",
+        "pk": 7,
+        "fields": {
+            "label": "Low Carbs"
+        }
+    
+    },
+    {
+        "model": "app_api.category",
+        "pk": 8,
+        "fields": {
+            "label": "Gluten- Free"
+        }
+    
+    }
+]

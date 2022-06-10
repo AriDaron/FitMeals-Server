@@ -1,0 +1,42 @@
+[
+    {
+        "model": "app_api.ordermeal",
+        "pk": 1,
+        "fields": {
+            "order":1,
+            "meal":1
+        }
+    },
+    {
+        "model": "app_api.ordermeal",
+        "pk": 2,
+        "fields": {
+            "order":1,
+            "meal":2
+        }
+    },
+    {
+        "model": "app_api.ordermeal",
+        "pk": 3,
+        "fields": {
+            "order":1,
+            "meal":3
+        }
+    },
+    {
+        "model": "app_api.ordermeal",
+        "pk": 4,
+        "fields": {
+            "order":1,
+            "meal":5
+        }
+    },
+    {
+        "model": "app_api.ordermeal",
+        "pk": 5,
+        "fields": {
+            "order":1,
+            "meal":6
+        }
+    }
+]

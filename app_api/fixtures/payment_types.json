@@ -1,0 +1,30 @@
+[
+    {
+        "model": "app_api.paymenttype",
+        "pk": 1,
+        "fields": {
+            "card_type": "VISA",
+            "card_number":"1234567890234564",
+            "customer":1
+        }
+    },
+    {
+        "model": "app_api.paymenttype",
+        "pk": 2,
+        "fields": {
+            "card_type": "AMEX",
+            "card_number":"9584738294888766",
+            "customer":1
+        }
+    },
+    {
+        "model": "app_api.paymenttype",
+        "pk": 3,
+        "fields": {
+            "card_type": "MASTERCARD",
+            "card_number":"4444403938887766",
+            "customer":1
+        }
+    
+    }
+]

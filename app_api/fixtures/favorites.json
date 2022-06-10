@@ -1,0 +1,18 @@
+[
+    {
+        "model": "app_api.favorite",
+        "pk": 1,
+        "fields": {
+            "customer": 1,
+            "meal":4
+        }
+    },
+    {
+        "model": "app_api.favorite",
+        "pk": 2,
+        "fields": {
+            "customer": 1,
+            "meal":8
+        }
+    }
+]
