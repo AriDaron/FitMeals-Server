@@ -7,7 +7,7 @@ class Meal(models.Model):
     nutrition= models.TextField()
     quantity= models.IntegerField()
     category= models.ForeignKey("Category",on_delete=models.CASCADE)
-    imageURL= models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=100)
+    imageURL= models.URLField()
     
     def __str__(self):
         return self.name

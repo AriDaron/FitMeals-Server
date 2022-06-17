@@ -16,13 +16,25 @@ class OrderView(ViewSet):
         orders = Order.objects.filter(customer=request.auth.user)
         serializer = OrderSerializer(orders, many=True)
         return Response(serializer.data)
+    def update(self, request, pk):
+        """Handle PUT requests for a order
 
+        Returns:
+            Response -- Empty body with 204 status code
+        """
+        order = Order.objects.get(pk=pk)
+        
+        serializer = UpdateOrderSerializer(order, data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save(completed_on=datetime.now())
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+        #Self- do this method on myself
     
     def destroy(self, request, pk):
         """Delete an order, current user must be associated with the order to be deleted
         """
         try:
-            order = Order.objects.get(pk=pk, user=request.auth.user)
+            order = Order.objects.get(pk=pk, customer=request.auth.user)
             order.delete()
             return Response(None, status=status.HTTP_204_NO_CONTENT)
         except Order.DoesNotExist as ex:
@@ -44,7 +56,19 @@ class OrderView(ViewSet):
         except (Order.DoesNotExist, PaymentType.DoesNotExist) as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
-    
+    def retrieve(self, request, pk):
+        """Handle GET requests for single order 
+
+        Returns:
+            Response -- JSON serialized order 
+        """
+        try:
+            order = Order.objects.get(pk=pk)
+            serializer = OrderSerializer(order)
+            return Response(serializer.data)
+        except Order.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+           
     @action(methods=['get'], detail=False)
     def current(self, request):
         """Get the user's current order"""
@@ -67,9 +91,7 @@ class OrderSerializer(serializers.ModelSerializer):
         depth = 1
 
 class UpdateOrderSerializer(serializers.ModelSerializer):
-    paymentTypeId = serializers.IntegerField()
-
     class Meta:
-        model = PaymentType
-        fields = ('paymentTypeId',)
+        model = Order
+        fields = ('payment_type',)
         

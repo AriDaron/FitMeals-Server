@@ -5,22 +5,22 @@
         "fields": {
             "name": "Fruit Medley",
             "price": 7.00,
-            "nutrition": "",
-            "quantity": 2,
+            "nutrition": "2 Cups Blueberries, 2 Cups Strawberries Quartered, 1/2 Cup Jicama Chopped,1/3 Cup Red Onion Chopped,3 Tablespoons Basil Finely Chopped,2 Tablespoons Lemon Juice Fresh,1 Tablespoon Blueberry Agave Nectar, 1 Tablespoon Coconut Flakes. 459 calories",
+            "quantity": 20,
             "category": 1,
-            "imageURL": ""
+            "imageURL": "https://hungryfortruthsd.com/content/uploads/2016/07/berry-salad.jpg"
         }
     },
     {
         "model": "app_api.meal",
         "pk": 2,
         "fields": {
-            "name": "Veggie Omelet ",
+            "name": "Ham and Veggie Omelet ",
             "price": 9.00,
-            "nutrition": "",
-            "quantity": 0,
+            "nutrition": "PAM® Butter No-Stick Cooking Spray, 1/2 cup thinly sliced green bell pepper, 1/2 cup thinly sliced red bell pepper, 1/2 cup chopped fully cooked lean ham, 1/4 cup thinly sliced yellow onion, 8 eggs, lightly beaten, 1/2 cup shredded Cheddar cheese, divided. 255 calories",
+            "quantity": 10,
             "category": 4,
-            "imageURL": ""
+            "imageURL": "https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_5802_2625.jpg"
         }
     },
     {
@@ -29,10 +29,10 @@
         "fields": {
             "name": "Shrimp Garden Salad",
             "price": 8.00,
-            "nutrition": "",
-            "quantity": 2,
+            "nutrition": "6 Cooked Jumbo Cocktail Shrimp, tail on, thawed, 1 egg, hard boiled, peeled and chopped, 2 Tbsp Spicy Italian Dressing, 1/2 cup(s) celery, chopped , 1 red onion, rings separated , 1/4 cup(s) red bell pepper , 2 cup(s) Garden Salad.270 calories",
+            "quantity": 20,
             "category": 5,
-            "imageURL": ""
+            "imageURL": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8280951.jpg&w=596&h=596&c=sc&poi=face&q=60"
         }
     },
     {
@@ -41,10 +41,10 @@
         "fields": {
             "name": "Taco Bowl",
             "price": 11.00,
-            "nutrition": "",
-            "quantity": 1,
+            "nutrition": "Brown rice (can sub with white rice or cauliflower rice for a low-carb option), Boneless, skinless chicken breast, Olive oil, Seasonings: salt, pepper, garlic powder, cilantro, ground cumin, smoked paprika, chili powder, onion powder,Veggies: cherry tomatoes, minced garlic, scallions, corn, black beans, red onion, Limes, Cream cheese, Cashew milk, Cheddar cheese. 655 calories",
+            "quantity": 10,
             "category": 5,
-            "imageURL": ""
+            "imageURL": "https://i0.wp.com/www.withpeanutbutterontop.com/wp-content/uploads/2019/03/Chicken-Taco-Bowls13.jpg"
         }
     },
     {
@@ -53,10 +53,10 @@
         "fields": {
             "name": "Overnight oats",
             "price": 7.00,
-            "nutrition": "",
-            "quantity": 1,
+            "nutrition": "½ cup old fashioned oats, ½ cup oat milk (or milk of your choice), ¼ cup yogurt of your choice, 1 tablespoon honey or maple syrup (optional), Handful of fresh berries, Handful of chopped nuts. 516 calories. ",
+            "quantity": 10,
             "category": 1,
-            "imageURL": ""
+            "imageURL": "https://steamykitchen.com/wp-content/uploads/2022/01/overnight-oats-with-berries-nuts-recipe-0191-500x625.jpg"
         }
     },
     {
@@ -65,34 +65,34 @@
         "fields": {
             "name": "Steak Stir Fry ",
             "price": 13.00,
-            "nutrition": "",
-            "quantity": 1,
+            "nutrition": "5 oz lean grilling steak, 2 cups mixed veggies (onion, peppers, snow peas, carrots, etc), 1 tbsp olive oil,1 tbsp soy sauce, 1 tbsp teriyaki sauce, 1 tsp each ground garlic and ground ginger, Optional: 1 tsp hot chili flakes. 478 calories",
+            "quantity": 10,
             "category": 6,
-            "imageURL": ""
+            "imageURL": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F03%2F22%2F228823_QuickBeefStirFry-mfs_0063_1x1.jpg"
         }
     },
     {
         "model": "app_api.meal",
         "pk": 7,
         "fields": {
-            "name": "Meat and Cheese tray",
+            "name": "Potato Chicken Noodle Soup",
             "price": 7.00,
-            "nutrition": "",
-            "quantity": 1,
+            "nutrition": "3-1/2 quarts Water, 1 medium Onion finely chopped, 5 tablespoons chicken flavored Better Than Bullion, 2 tablespoons Butter, 2-3 medium carrots grated, 3-4 chicken tenders (fresh or thawed) cut into 1/2 inch pieces, 1 cup elbow macaroni noodles, 2-3 Potatoes peeled and sliced,3 tablespoons dill fresh or frozen, salt and pepper to taste. 175 calories",
+            "quantity": 10,
             "category": 3,
-            "imageURL": ""
+            "imageURL": "https://hungryfortruthsd.com/content/uploads/2018/02/square3.png"
         }
     },
     {
         "model": "app_api.meal",
         "pk": 8,
         "fields": {
-            "name": "Stuffed Chicken Galore",
+            "name": "Stuffed Chicken and Asparagus Galore",
             "price": 14.50,
-            "nutrition": "",
-            "quantity": 1,
+            "nutrition": "1 boneless and skinless chicken breasts, 1/2 tbsp garlic parsley salt, 1/4 tbsp paprika,  1 1/2 tbsp Unsalted Butter, 1 1/2 oz softened cream cheese, 1/8 cup parmesan cheese, 1/2 tbsp mayonnaise, 1/4 cup chopped spinach, 1/2 galic cloves pressed. 350 calories",
+            "quantity": 10,
             "category": 6,
-            "imageURL": ""
+            "imageURL": "https://www.wellplated.com/wp-content/uploads/2021/04/Healthy-Creamy-Spinach-Stuffed-Chicken-Breast.jpg"
         }
     }
    
